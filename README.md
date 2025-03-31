@@ -53,6 +53,8 @@ Copiar
 
 /src
    ├─ assets             # Imágenes y otros recursos (ej. fondo.webp, fondo2.jpg, logo.png, etc.)
+
+   
    ├─ components
    │     ├─ Header.jsx
    │     ├─ Footer.jsx
@@ -62,15 +64,25 @@ Copiar
    │     ├─ FavoritesModal.jsx
    │     ├─ VideoModal.jsx
    │     └─ VideoEmbed.jsx   (si se usa, o se reemplaza por botones)
+
+   
    ├─ Context
    │     ├─ FavoritesContext.jsx
    │     └─ (opcional ThemeContext si se usa, en este caso se forzó el tema oscuro)
+
+   
    ├─ hooks
    │     └─ useFetchCharacters.js
+
+   
    ├─ utils
    │     └─ api.js         # Funciones para hacer peticiones a la API
+
+   
    ├─ App.jsx
    └─ main.jsx
+
+   
 Instalación y Ejecución
 Clonar el repositorio:
 
